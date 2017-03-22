@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F0FE15AB8D7F9F47CE7A7BAD87E750061350122",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "96CA1299426C6C2BF325579B46D1DD34B85536EE" : 9223372036854775807,
+    "2F0FE15AB8D7F9F47CE7A7BAD87E750061350122" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0130963B-C558-43AB-BCFD-A984513A5AFC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "96CA1299426C6C2BF325579B46D1DD34B85536EE" : "..\/..\/Work\/TT_KanKan\/ttkankan",
+    "2F0FE15AB8D7F9F47CE7A7BAD87E750061350122" : "ios-commonres\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ios-dev-comres",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios-dev-comres\/ios-dev-comres.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wuwulailai\/awesome-ios-commonres.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F0FE15AB8D7F9F47CE7A7BAD87E750061350122"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.11.10.211\/iOS\/ttkankan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96CA1299426C6C2BF325579B46D1DD34B85536EE"
+    }
+  ]
+}

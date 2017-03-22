@@ -7,5 +7,9 @@ target :'ios-dev-comres' do
     pod 'SDWebImage'
     
     pod 'Bugly'
+    
+    pod 'MBProgressHUD'
+    
+    pod 'Masonry'
 
 end

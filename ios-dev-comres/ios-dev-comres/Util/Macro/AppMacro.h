@@ -14,7 +14,7 @@
  * 断言，Debug和Release下启用，Distribution下不启用
  */
 #ifndef DISTRIBUTION
-#define TTAssert(condition, desc, ...)	\
+#define CMAssert(condition, desc, ...)	\
 do {				\
 __PRAGMA_PUSH_NO_EXTRA_ARG_WARNINGS \
 if (!(condition)) {		\
@@ -27,7 +27,7 @@ lineNumber:__LINE__ description:(desc), ##__VA_ARGS__]; \
 __PRAGMA_POP_NO_EXTRA_ARG_WARNINGS \
 } while(0)
 #else
-#define TTAssert(condition, desc, ...) do {} while (0)
+#define CMAssert(condition, desc, ...) do {} while (0)
 #endif
 #endif /* AppMacro_h */
 
@@ -35,10 +35,10 @@ __PRAGMA_POP_NO_EXTRA_ARG_WARNINGS \
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - AppSingle
 
-#define TTUserDefault         [NSUserDefaults standardUserDefaults]
-#define TTDefaultManager      [NSFileManager defaultManager]
-#define TTDefaultCenter       [NSNotificationCenter defaultCenter]
-#define TTSharedApplication   [UIApplication sharedApplication]
+#define CMUserDefault         [NSUserDefaults standardUserDefaults]
+#define CMDefaultManager      [NSFileManager defaultManager]
+#define CMDefaultCenter       [NSNotificationCenter defaultCenter]
+#define CMSharedApplication   [UIApplication sharedApplication]
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -134,16 +134,15 @@ _Pragma("clang diagnostic pop")
 #undef  LOG_LEVEL_DEF
 #define LOG_LEVEL_DEF   DDLogLevelDebug
 
-#define TTLog      DDLogDebug
-#define TTAutom()  TTLog(@"enter")
+#define CMLog      DDLogDebug
+#define CMAutom()  CMLog(@"enter")
 
 #else
 
-#define TTLog(FORMAT, ...)
-#define TTAutom()
+#define CMLog(FORMAT, ...)
+#define CMAutom()
 
 #endif
 
 ////////////////////////////////////////////////////////////////////////////////
-
-#endif /* AppMacro_h */
+/* AppMacro_h */
