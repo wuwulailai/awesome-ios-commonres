@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+target :'ios-dev-comres' do
+
+	pod 'AFNetworking'
+    
+    pod 'SDWebImage'
+    
+    pod 'Bugly'
+
+end
